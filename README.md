@@ -1,7 +1,7 @@
 SMoore-Deedy-Resume
 =========================
 
-A **one page** , **two asymmetric column** resume template in **XeTeX**, based on [Deedy-Resume](https://github.com/deedydas/Deedy-Resume), catering to a grad student with research and teaching experience who is looking for a one-sheet "quick look" CV alternative for private sector work.
+A **one page**, **two asymmetric column** resume template in **XeTeX**, based on [Deedy-Resume](https://github.com/deedydas/Deedy-Resume), catering to a grad student with research and teaching experience who is looking for a one-sheet "quick look" CV alternative for private sector work.
 Like [Deedy-Resume](https://github.com/deedydas/Deedy-Resume), but with a slightly different implementation, the user has the option to choose from two classes, each utilizing one serif and one sans serif font face:
 
 1. **paidfonts** - uses fonts that are available for purchase but are not native to any operating system - *Avenir Next* (Ultra Light and Regular) and *Archer* (Book and Bold).
@@ -24,7 +24,9 @@ Again like [Deedy-Resume](https://github.com/deedydas/Deedy-Resume), it is licen
 3. Class should be changed on line 25 of `smoore-deedy-resume.xtx` to either `openfonts-smoore-deedy-resume` or `paidfonts-smoore-deedy-resume` depending on which the user would like to use.
 
 To compile:
+```
     xelatex smoore-deedy-resume.xtx
     bibtex smoore-deedy-resume
     xelatex smoore-deedy-resume.xtx
     xelatex smoore-deedy-resume.xtx
+```
