@@ -1,0 +1,307 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SMoore-Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.0 (2014.11.16)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+% With modifications by:
+% Sara Moore (http://www.saraemoore.com)
+% partly based on modifications by:
+% Vel (vel@latextemplates.com)
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses fonts not included with Mac OS/Windows/Linux by default.
+% If you get compilation errors saying a font is missing, find the line(s)
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{openfonts-smoore-deedy-resume}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Sara E}{Moore}{
+\urlstyle{same}\href{http://www.saraemoore.com}{www.saraemoore.com}\\
+\href{mailto:sara@saraemoore.com}{sara@saraemoore.com} | 919.627.7272\\
+LinkedIn: \href{https://www.linkedin.com/in/saraemoore}{\textbf{saraemoore}}  | Twitter: \href{https://twitter.com/sara_e_moore}{\textbf{@sara\_e\_moore}}  | Github: \href{https://github.com/saraemoore}{\textbf{saraemoore}}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+
+\subsection[University of California, Berkeley]{\texorpdfstring{University of California,\\Berkeley}{University of California, Berkeley}}
+\location{School of Public Health}
+
+\subsectionspace
+
+\descript{PhD in Biostatistics}
+\location{May 2016 (projected) | Berkeley, CA}
+
+\sectionspace
+
+\descript{MA in Biostatistics}
+\location{May 2013 | Berkeley, CA}
+Thesis: Can the `Wrong' Amount of Sleep Make You Fat? Sleep and Adiposity in Young Women
+
+\sectionspace
+
+%------------------------------------------------
+
+\subsection{Duke University}
+\descript{BA in Computer Science}
+\location{Dec 2002 | Durham, NC}
+double major in Psychology
+
+\sectionspace
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+
+Statistical Computing \\
+Behavioral Data Mining \\
+Longitudinal Data Analysis \\
+Censored Longitudinal Data \\
+Analysis of Time Series \\
+Causal Inference I \& II \\
+Survival Analysis \& Causality \\
+Adaptive Designs \\
+Stats of Causal Inference in Soc. Sci. \\
+Quant. Methodology in Soc. Sci. \\
+Comp. Stats w/ Appl. in Bio. \& Med. \\
+Statistical Genomics \\
+Bootstrapping \& Model Selection \\
+SAS Programming\\
+Python Bootcamp
+
+\sectionspace
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Technical Skills}
+
+\subsection[Programming, Scripting, \& Markup Languages]{\texorpdfstring{Programming, Scripting,\\ \& Markup Languages}{Programming, Scripting, \& Markup Languages}}
+
+\descript{Current}
+R \textbullet{} \LaTeX \textbullet{} Shell \textbullet{} STATA \\ 
+\descript{Past}
+Scala \textbullet{} Java \textbullet{} C++ \textbullet{} C \\
+Objective-C (Cocoa Touch) \\
+Matlab \textbullet{} SAS \textbullet{} SPSS \textbullet{} OpenGL \\
+CSS \textbullet{} HTML \textbullet{} XML \textbullet{} Visual Basic\\
+\descript{Familiar}
+Python \textbullet{} JavaScript \textbullet{} Perl \textbullet{} PHP
+
+\sectionspace
+
+\subsection{Systems \& Frameworks}
+Mac OS \textbullet{} Windows \textbullet{} Linux \\
+Unix \textbullet{} BSD \textbullet{} Sun Grid Engine \\
+Hadoop \textbullet{} Drupal
+
+\sectionspace
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Research}
+
+\subsection{University of California, Berkeley}
+\location{Group in Biostatistics, School of Public Health}
+\rundescript{Graduate Student Researcher}
+\location{| Aug 2013 – present | Berkeley, CA}
+
+\subsubsectionspace
+
+\subsection{University of California, San Francisco}
+\location{Department of Psychiatry, School of Medicine}
+\rundescript{Staff Research Associate}
+\location{| Dec 2012 – Jan 2014 | San Francisco, CA}
+
+\subsubsectionspace
+
+\subsection{University of California, Berkeley}
+\location{Center for Weight \& Health, College of Natural Resources / School of Public Health}
+\rundescript{Graduate Student Researcher}
+\location{| Jun 2012 – Aug 2013 | Berkeley, CA}
+
+\subsubsectionspace
+
+\subsection{Emory University}
+\location{Center for Neuropolicy, Department of Economics, College of Arts \& Sciences}
+\rundescript{Research Specialist}
+\location{| Aug 2005 – Aug 2011 | Atlanta, GA}
+
+\subsubsectionspace
+
+\subsection{Duke University Medical Center}
+\location{Cognitive Psychology Lab, Center for the Study of Aging \& Human Development}
+\rundescript{Associate in Research}
+\location{| Feb 2003 – Jul 2005 | Durham, NC}
+
+\sectionspace
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TEACHING
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Teaching}
+
+\subsection{University of California, Berkeley}
+\rundescript{Teaching Assistant}
+\location{| On-Campus/Online Professional MPH Degree Program}
+
+\begin{minipage}[b]{0.75\textwidth}
+\flushleft
+\tinyindent Intro. to Prob. \& Stats in Biology \& Public Health
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.2\textwidth}
+\flushright
+\runlocnoalign{Spring 2014}
+\end{minipage}
+
+\subsectionspace
+
+\rundescript{Graduate Student Instructor}
+\location{| School of Public Health}
+
+\begin{minipage}[b]{0.75\textwidth}
+\flushleft
+\tinyindent Introduction to Multivariate Statistics\\
+\tinyindent Introduction to Biostatistics\\
+\tinyindent Statistical Analysis of Categorical Data\\
+\tinyindent Intro. to Prob. \& Stats in Biology \& Public Health
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.2\textwidth}
+\flushright
+\locnoalign{Fall 2012}
+\locnoalign{Summer 2012}
+\locnoalign{Spring 2012}
+\runlocnoalign{Fall 2011}
+\end{minipage}
+
+\sectionspace
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards \& Certifications} 
+
+\begin{minipage}[b]{0.75\textwidth}
+\flushleft
+\rundescript{Outstanding Graduate Student Instructor} \location{| UC Berkeley}
+\rundescript{SAS Certified Base Programmer for SAS 9}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.2\textwidth}
+\flushright
+\locnoalign{2014}
+\runlocnoalign{2008}
+\end{minipage}
+
+\sectionspace % Some whitespace after the section
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LEADERSHIP
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Leadership} 
+
+\begin{minipage}[b]{0.75\textwidth}
+\flushleft
+\rundescript{co-President} \location{| Biostat. Grad. Student Assoc., UC Berkeley}
+\rundescript{Supervisor, Research Specialist} \runlocation{| Emory University}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.2\textwidth}
+\flushright
+\locnoalign{since Aug 2014}
+\runlocnoalign{2009 - 2011} % Aug 2009 - Aug 2011
+\end{minipage}
+
+\sectionspace % Some whitespace after the section
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROFESSIONAL
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Non-Academic} 
+\begin{minipage}[b]{0.75\textwidth}
+\flushleft
+\descript{iOS app developer}
+\rundescript{Web developer}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.2\textwidth}
+\flushright
+\locnoalign{2009 - 2012}
+\runlocnoalign{2007 - 2009} 
+\end{minipage}
+
+\sectionspace % Some whitespace after the section
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Selected Publications} 
+\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
+\bibliographystyle{abbrv}
+\bibliography{publications}
+\nocite{*}
+
+\end{minipage} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\footrule
+
+\lastupdated
+
+\end{document}
